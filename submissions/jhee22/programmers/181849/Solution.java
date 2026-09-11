@@ -5,5 +5,11 @@ class Solution {
             answer += num_str.charAt(i) - '0'; 
         }
         return answer;
+        /*
+        stream() 활용하면 
+        return num_str.chars()
+                .map(c -> c - '0')
+                .sum(); 
+        */
     }
 }
